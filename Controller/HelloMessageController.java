@@ -9,4 +9,10 @@ public class HelloMessageController {
     public String sayHello() {
         return "welcome  to Hello Messaging App";
     }
+
+    @RequestMapping("/msg")
+    public String sayHelloMsg() {
+        return "Hello From BridgeLabz !!!! ";
+    }
+
 }
